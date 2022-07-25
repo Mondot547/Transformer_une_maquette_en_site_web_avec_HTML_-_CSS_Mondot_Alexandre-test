@@ -813,5 +813,21 @@ footer .container3 {
     }
 }
 @media only screen and (max-width: 425px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logo {
+        margin-right: -65%;
+        margin-bottom: 20%;
+    }
+    
+    .nav-list {
+        display: flex;
+        margin-right: 15%;
+    }
+    
     
 }
