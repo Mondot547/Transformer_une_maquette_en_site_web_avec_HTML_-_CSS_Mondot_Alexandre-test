@@ -819,15 +819,33 @@ footer .container3 {
         margin-left: auto;
         margin-right: auto;
     }
+    .topnav {
+        width: 100%;
+        
+    }
     #logo {
-        margin-right: -65%;
-        margin-bottom: 20%;
-    }
-    
-    .nav-list {
+        width: 300px;
         display: flex;
-        margin-right: 15%;
+        justify-content: center;
+        margin-left: 40px;
     }
-    
-    
+    .nav-list {
+        width: 320px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .nav-list span {
+        width: 300px;
+        display: flex;
+        border-bottom: 2px solid #f2f2f2;
+    }
+    h1, .sous-titre {
+        margin-left: 10px;
+    }
+    .filtre {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+    }
 }
