@@ -28,7 +28,7 @@
     color: black;
 }
 
-.nav-item a:hover {
+#Heb a:hover, #Act a:hover {
     border-top: 2px solid #0065fc;
     padding-top: 2em;
     color: #0065fc;
@@ -37,6 +37,13 @@
 .nav-item:first-child {
     margin-right: auto;
     margin-left: 1em;
+}
+.topnav span {
+    display: flex;
+    flex-direction: row;
+}
+span #Act {
+    margin-left: 60px;
 }
 /*body*/
 
@@ -836,6 +843,9 @@ footer .container3 {
         width: 300px;
         display: flex;
         border-bottom: 2px solid #f2f2f2;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: 10px;
     }
     h1, .sous-titre {
         margin-left: 10px;
@@ -848,6 +858,7 @@ footer .container3 {
     /*Hébergement*/
     .Hcards {
         width: 300px;
+        margin-left: auto;
     }
     .Hcards .row {
         display: flex;
@@ -856,6 +867,8 @@ footer .container3 {
     /*Populaire*/
     .Pcards {
         width: 300px;
+        height: 600px;
+        margin-left: auto;
     }
     .Pcards h3 {
         display: flex;
@@ -867,6 +880,13 @@ footer .container3 {
     .Pcards .pop {
         display: flex;
         flex-direction: column;
+        margin-top: -15px;
+        height: 600px;
+    }
+    .cardPop {
+        margin-bottom: 10px;
+        margin-top: 30px;
+        width: 277px;
     }
     /*Activite*/
     #activite {
@@ -877,9 +897,19 @@ footer .container3 {
         display: flex;
         flex-direction: column;
     } 
+    .BigImg {
+        width: 280px;
+    }
+    .BigImg img {
+        width: 280px;
+    }
     /*Footer*/
     .footer {
         display: flex;
         flex-direction: column;
+    }
+    .container2 {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
