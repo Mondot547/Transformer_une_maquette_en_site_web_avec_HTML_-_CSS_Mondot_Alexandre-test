@@ -817,11 +817,18 @@ footer .container3 {
     }
 }
 @media only screen and (max-width: 425px) {
+    body {
+        width: 100%;
+        margin-left: auto;
+    }
     main {
         display: flex;
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
+    }
+    .regroupement {
+        width: 100%;
     }
     /*header*/
     .topnav {
@@ -835,13 +842,13 @@ footer .container3 {
         margin-left: 40px;
     }
     .nav-list {
-        width: 320px;
+        width: 100%;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
     }
     .nav-list span {
-        width: 300px;
+        width: 100%;
         display: flex;
         border-bottom: 2px solid #f2f2f2;
         margin-top: 20px;
@@ -860,7 +867,12 @@ footer .container3 {
     .filtre {
         display: flex;
         flex-direction: column;
-        width: 180px;
+        width: 100%;
+    }
+    .info {
+        width: 90%;
+        text-align: start;
+        margin-left: auto;
     }
     /*Hébergement*/
     .Hcards {
@@ -884,9 +896,13 @@ footer .container3 {
     #Hebergement {
         margin-bottom: 60px;
     }
+    span a {
+        margin-left: 15px;
+        font-weight: bold;
+    }
     /*Populaire*/
     .Pcards {
-        width: 300px;
+        width: 100%;
         height: 660px;
         margin-left: auto;
         margin-right: auto;
@@ -897,13 +913,17 @@ footer .container3 {
         justify-content: flex-start;
     }
     .titre .secondTitle {
-        width: 180px;
+        width: 267px;
+        display: flex;
+        justify-content: space-between;
     }
     .Pcards .pop {
         display: flex;
         flex-direction: column;
         margin-top: -15px;
         height: 620px;
+        margin-left: 20%;
+        margin-right: auto;
     }
     .cardPop {
         margin-bottom: 10px;
@@ -917,7 +937,12 @@ footer .container3 {
     }
     /*Activite*/
     .Acards {
-        width: 300px;
+        width: 100%;
+        margin-left: auto;
+    }
+    .thirdTitle {
+        margin-left: 15px;
+        margin-bottom: -65px;
     }
     #activite {
         display: flex;
@@ -928,10 +953,7 @@ footer .container3 {
         display: flex;
         flex-direction: column;
     } 
-    .cardActivite {
-        width: 300px;
-        
-    }
+    
     .BigImg {
         margin-right: auto;
     }
