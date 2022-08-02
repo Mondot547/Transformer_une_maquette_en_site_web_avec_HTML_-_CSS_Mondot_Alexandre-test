@@ -91,7 +91,7 @@ a {
 
 .filtres h3 {
     margin-top: 40px;
-    margin-bottom: -65px;
+    margin-bottom: -50px;
 }
 
 .filtre {
@@ -109,22 +109,23 @@ a {
 
 
 
-.filtre .item {
+.filtre .item1, .item2, .item3, .item4 {
     border: 1px solid #f2f2f2;
     border-radius: 30px;
     padding-top: 0;
     padding-bottom: 0;
     padding-right: 0.3em;
     text-align: center;
+    margin-left: 20px;
 }
 
-.item i {
+.item1 i, .item2 i, .item3 i, .item4 i {
     margin-left: -0.5em;
     background-color: #deebff;
     color: #0065fc;
     padding: 0.75em;
     border-radius: 40px;
-    margin-right: 0.6em;
+    margin-right: 20px;
 }
 
 p i {
@@ -517,14 +518,15 @@ footer .container3 {
 
     /*filtre*/
     .filtres h3 {
-        margin-top: 55px;
-        margin-bottom: -80px;
+        margin-top: 25px;
+        margin-bottom: -60px;
+        
     }
     /*hébergement*/
     
     
     .regroupement {
-        width: 1400px;
+        width: 1440px;
         display: flex;
         justify-content: center;
     }
@@ -591,7 +593,7 @@ footer .container3 {
         margin-bottom: -65px;
     }
     .Acards {
-        width: 90%;
+        width: 100%;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -682,7 +684,7 @@ footer .container3 {
         margin-left: 300px;
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and ( min-width: 768px) {
     
     /*hebergement_populaire*/
     .regroupement {
@@ -690,14 +692,15 @@ footer .container3 {
         flex-direction: column-reverse;
     }
     .filtres h3 {
-        margin-left: 13px;
-        margin-bottom: -55px;
+        margin-left: 10px;
+        margin-bottom: -45px;
     }
     .filtres .filtre {
         margin-left: 15px;
+        width: 700px;
     }
-    .filtre .item {
-        margin-left: 40px;
+    .filtre .item1, .item2, .item3, .item4 {
+        margin-left: 20px;
         font-size: 0.8em;
     }
     /*populaire*/
@@ -705,7 +708,7 @@ footer .container3 {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        width: 728px;
+        width: 768px;
         margin-left: 13px;
         margin-bottom: 20px;
         height: 300px;
@@ -816,7 +819,7 @@ footer .container3 {
         width: 100%;
     }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 425px) {
     body {
         width: 100%;
         margin-left: auto;
@@ -841,6 +844,9 @@ footer .container3 {
         justify-content: center;
         margin-left: 40px;
     }
+    button .search {
+        content: \F52A;
+    }
     .nav-list {
         width: 100%;
         display: flex;
@@ -864,40 +870,86 @@ footer .container3 {
     h1, .sous-titre {
         margin-left: 10px;
     }
-    .filtre {
+    .filtres {
+        width: 400px;
+    }
+    .filtres h3 {
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    
+    .filtres .filtre {
+        width: 300px;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        margin-left: -10px;
+        padding-left: 0px;
+    }
+    .filtre li {
+        width: 130px;
+    }
+    
+    .item1 i {
+        margin-right: 5px;
+        margin-left: -20px;
+    }
+    .filtre .item2 {
+        width: 100px;
+        margin-left: 170px;
+        margin-top: -35px;
+    }
+    .item2 i {
+        margin-left: -25px;
+        margin-right: 5px;
+    }
+    .item3 i {
+        margin-right: 5px;
+        margin-left: -25px;
+    }
+    .filtre .item4 {
+        width: 150px;
+        margin-left: 27px;
+    }
+    .item4 i {
+        margin-left: -20px;
+        margin-right: 5px;
     }
     .info {
-        width: 90%;
-        text-align: start;
-        margin-left: auto;
+        width: 400px;
+        text-align: justify;
+        margin-left: 15px;
     }
     /*Hébergement*/
+    .firstTitle {
+        margin-bottom: 80px;
+        margin-left: 35px;
+    }
     .Hcards {
-        width: 300px;
-        margin-left: auto;
+        width: 425px;
         margin-right: auto;
         background-color: white;
+        margin-top: -20px;
+        margin-left: 0;
     }
+    
     .Hcards .row {
         display: flex;
         flex-direction: column;
+        margin-left: 0;
     }
     .cardHerb {
-        width: 277px;
-        margin-left: auto;
+        width: 347px;
+        margin-left: 30px;
         margin-top: 0;
     }
     .cardHerb img {
-        width: 267px;
+        width: 337px;
     }
     #Hebergement {
         margin-bottom: 60px;
     }
     span a {
-        margin-left: 15px;
+        margin-left: 35px;
         font-weight: bold;
     }
     /*Populaire*/
@@ -911,37 +963,40 @@ footer .container3 {
     .Pcards h3 {
         display: flex;
         justify-content: flex-start;
-    }
-    .titre .secondTitle {
-        width: 267px;
+        width: 340px;
         display: flex;
         justify-content: space-between;
+        margin-left: 43px;
     }
     .Pcards .pop {
         display: flex;
         flex-direction: column;
         margin-top: -15px;
         height: 620px;
-        margin-left: 20%;
+        margin-left: auto;
         margin-right: auto;
     }
     .cardPop {
         margin-bottom: 10px;
         margin-top: 30px;
-        width: 277px;
+        width: 347px;
         height: 150px;
+        margin-right: auto;
+        margin-left: 40px;
     }
     .cardPop img {
-        width: 120px;
+        width: 150px;
         height: 140px;
+    }
+    .cardPop figcaption {
+        margin-left: 1px;
     }
     /*Activite*/
     .Acards {
         width: 100%;
-        margin-left: auto;
     }
     .thirdTitle {
-        margin-left: 15px;
+        margin-left: 40px;
         margin-bottom: -65px;
     }
     #activite {
@@ -956,31 +1011,42 @@ footer .container3 {
     
     .BigImg {
         margin-right: auto;
+        margin-left: 35px;
+    }
+    .BigImg2 {
+        margin-left: 117px;
     }
     .group1 {
-        margin-left: 15px;
-        width: 300px;
+        margin-left: 0;
+        margin-top: 30px;
+        width: 425px;
+        height: 400px;
     }
     .BigImg, .BigImg2,.cardActivite1, .cardActivite2, .cardActivite3, .cardActivite4 {
-        width: 280px;
+        width: 347px;
         height: 170px;
     }
     .BigImg img, .BigImg2 img, .cardActivite1 img, .cardActivite2 img, .cardActivite3 img, .cardActivite4 img {
-        width: 280px;
+        width: 347px;
         height: 120px;
     }
     .cardActivite1 {
         margin-left: auto;
+        margin-top: 10px;
     }
+    
     .cardActivite2 {
         margin-left: auto;
     }
     .group2 {
-        margin-left: 15px;
-        margin-right: 0;
+        width: 425px;
+        height: 400px;
+        margin-left: 35px;
+        margin-top: 30px;
     }
     .cardActivite3 {
         margin-left: 80px;
+        margin-top: 10px;
     }
     .cardActivite4 {
         margin-left: 80px;
@@ -1005,5 +1071,79 @@ footer .container3 {
     .footer .container3 {
         margin-left: 25px;
         padding-top: 10px;
+    }
+}
+@media only screen and (min-width:320px) {
+
+    .info {
+        width: 300px;
+    }
+    .Pcards {
+        width: 100%;
+    }
+    .Pcards h3 {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .cardPop {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .Hcards {
+        width: 320px; 
+    }
+    .firstTitle {
+        margin-left: 12px;
+    }
+    .cardHerb {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .cardHerb img {
+        width: 290px;
+    }
+    .bottom {
+        width: 300px;
+        margin-left: -20px;
+    }
+    .Acards {
+        width: 320px;
+    }
+    .thirdTitle {
+        margin-left: 12px;
+    }
+    .BigImg {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .BigImg img {
+        width: 300px;
+    }
+    .group1 {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .cardActivite1, .cardActivite1 img {
+        width: 300px;
+    }
+    .cardActivite2, .cardActivite2 img {
+        width: 300px;
+    }
+    .BigImg2 {
+        width: 300px;
+        margin-left: 90px;
+    }
+    .BigImg2 img {
+        width: 300px;
+    }
+    .group2 {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .cardActivite3, .cardActivite3 img {
+        width: 300px;
+    }
+    .cardActivite4, .cardActivite4 img {
+        width: 300px;
     }
 }
