@@ -900,6 +900,9 @@ footer .container3 {
     .fa-search {
         display: initial;
     }
+    .search {
+        border-radius: 10px;
+    }
     .filtres {
         width: 400px;
     }
@@ -945,7 +948,7 @@ footer .container3 {
         margin-right: 5px;
     }
     .info {
-        width: 400px;
+        width: 300px;
         text-align: justify;
         margin-left: 15px;
     }
