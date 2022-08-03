@@ -868,28 +868,38 @@ footer .container3 {
         width: 300px;
         display: flex;
         justify-content: center;
-        margin-left: 40px;
+        margin-left: 20%;
     }
     
     .nav-list {
-        width: 100%;
+        width: 425px;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
     }
     .nav-list span {
-        width: 100%;
+        width: 425px;
         display: flex;
+        justify-content: space-around;
         border-bottom: 2px solid #f2f2f2;
         margin-top: 20px;
         margin-left: auto;
         margin-right: 10px;
         padding-bottom: 10px;
     }
+    #Act {
+        margin-right: 70px;
+    }
     #Heb:hover, #Act:hover {
+        width: 425px;
+        border-top: none;
         border-bottom: 2px solid #0065fc;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         color: #0065fc;
+    }
+    h1 {
+        width: 350px;
+        margin-right: -50px;
     }
     h1, .sous-titre {
         margin-left: 10px;
@@ -935,6 +945,9 @@ footer .container3 {
         margin-left: -25px;
         margin-right: 5px;
     }
+    .item3 {
+        margin-top: 10px;
+    }
     .item3 i {
         margin-right: 5px;
         margin-left: -25px;
@@ -943,14 +956,28 @@ footer .container3 {
         width: 150px;
         margin-left: 27px;
     }
+    .item4 {
+        margin-top: 10px;
+    }
     .item4 i {
         margin-left: -20px;
         margin-right: 5px;
     }
     .info {
-        width: 300px;
-        text-align: justify;
+        width: 350px;
+        text-align:inherit;
         margin-left: 15px;
+    }
+    
+    .search {
+        width: 40px;
+        height: 40px;
+        margin-left: 0;
+    }
+    .local {
+        width: 40px;
+        height: 40px;
+        margin-right: 0;
     }
     /*Hébergement*/
     .firstTitle {
