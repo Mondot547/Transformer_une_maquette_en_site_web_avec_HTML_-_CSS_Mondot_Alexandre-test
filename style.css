@@ -85,7 +85,9 @@ a {
     margin-bottom: 10px;
 
 }
-
+.fa-search {
+    display: none;
+}
 
 /*type de recherche*/
 
@@ -697,7 +699,9 @@ footer .container3 {
     }
 }
 @media only screen and ( max-width: 768px) {
-    
+    .fa-search {
+        display: none;
+    }
     /*hebergement_populaire*/
     .regroupement {
         display: flex;
@@ -889,6 +893,12 @@ footer .container3 {
     }
     h1, .sous-titre {
         margin-left: 10px;
+    }
+    .button-text {
+        display: none;
+    }
+    .fa-search {
+        display: initial;
     }
     .filtres {
         width: 400px;
