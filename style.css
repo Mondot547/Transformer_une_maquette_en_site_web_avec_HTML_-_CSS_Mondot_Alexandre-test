@@ -500,9 +500,15 @@ footer .container3 {
         flex-direction: column;
         justify-content: center;
     }
+    h1 {
+        margin-left: 20px;
+    }
+    .sous-titre {
+        margin-left: 20px;
+    }
     /*bar de recherche*/
-    search-bar {
-        padding: 0;
+    .search-bar {
+        margin-left: 10px;
     }
     .local {
         width: 50px;
@@ -517,10 +523,16 @@ footer .container3 {
     }
 
     /*filtre*/
+    .filtres {
+        margin-left: 20px;
+    }
     .filtres h3 {
         margin-top: 25px;
         margin-bottom: -60px;
         
+    }
+    .info {
+        margin-left: 20px;
     }
     /*hébergement*/
     
@@ -611,7 +623,7 @@ footer .container3 {
         margin-left: 20px;
     }
     .BigImg2 {
-        margin-left: 150px;
+        margin-left: 160px;
     }
     .BigImg img, .BigImg2 img {
         width: 350px;
@@ -684,7 +696,7 @@ footer .container3 {
         margin-left: 300px;
     }
 }
-@media only screen and ( min-width: 768px) {
+@media only screen and ( max-width: 768px) {
     
     /*hebergement_populaire*/
     .regroupement {
@@ -700,15 +712,21 @@ footer .container3 {
         width: 700px;
     }
     .filtre .item1, .item2, .item3, .item4 {
-        margin-left: 20px;
+        margin-left: 25px;
         font-size: 0.8em;
+    }
+    .item1 i, .item2 i, .item3 i, .item4 i {
+        margin-right: 5px;
+    }
+    .filtre li {
+        padding-right: 10px;
     }
     /*populaire*/
     .Pcards {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
-        width: 768px;
+        width: 728px;
         margin-left: 13px;
         margin-bottom: 20px;
         height: 300px;
@@ -723,9 +741,10 @@ footer .container3 {
     }
     .Pcards h3 {
         height: 23px;
-        width: 690px;
+        width: 700px;
         display: flex;
         justify-content: space-between;
+        margin-left: 15px;
         
     }
     .cardPop {
@@ -743,6 +762,9 @@ footer .container3 {
     }
     .cardPop figcaption p {
         margin-top: -15px;
+    }
+    .cardPop figcaption .avis {
+        margin-top: -10px;
     }
     /*hebergement*/
     .Hcards {
@@ -819,7 +841,7 @@ footer .container3 {
         width: 100%;
     }
 }
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
     body {
         width: 100%;
         margin-left: auto;
@@ -844,9 +866,7 @@ footer .container3 {
         justify-content: center;
         margin-left: 40px;
     }
-    button .search {
-        content: \F52A;
-    }
+    
     .nav-list {
         width: 100%;
         display: flex;
@@ -982,7 +1002,7 @@ footer .container3 {
         width: 347px;
         height: 150px;
         margin-right: auto;
-        margin-left: 40px;
+        margin-left: 30px;
     }
     .cardPop img {
         width: 150px;
@@ -1073,7 +1093,7 @@ footer .container3 {
         padding-top: 10px;
     }
 }
-@media only screen and (min-width:320px) {
+/*@media only screen and (min-width:320px) {
 
     .info {
         width: 300px;
