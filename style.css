@@ -869,6 +869,9 @@ footer .container3 {
     .regroupement {
         width: 100%;
     }
+    h4 {
+        font-weight: bold;
+    }
     /*header*/
     .topnav {
         width: 100%;
@@ -923,6 +926,7 @@ footer .container3 {
     input { 
         width: 200px;
         height: 40px;
+        
     }
     .button-text {
         display: none;
@@ -951,6 +955,7 @@ footer .container3 {
     }
     .filtre li {
         font-size: 1em;
+        font-weight: bold;
     }
     .filtre .item1 {
         height: 45px;
@@ -1011,6 +1016,7 @@ footer .container3 {
         margin-right: 5px;
     }
     .info {
+        font-weight: bold;
         width: 350px;
         text-align:inherit;
         margin-left: 25px;
@@ -1039,10 +1045,11 @@ footer .container3 {
         margin-left: 0;
     }
     .Hcards figcaption {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
-    figcaption .avis i {
-        height: 15px;
+    
+    .Hcards .fa-star {
+        width: 20px;
     }
     .Hcards .row {
         display: flex;
@@ -1067,7 +1074,7 @@ footer .container3 {
     /*Populaire*/
     .Pcards {
         width: 100%;
-        height: 660px;
+        height: 640px;
         margin-left: auto;
         margin-right: auto;
         border-radius: 0;
@@ -1095,13 +1102,25 @@ footer .container3 {
         height: 150px;
         margin-right: auto;
         margin-left: 30px;
+        margin-top: 10px;
     }
     .cardPop img {
         width: 150px;
         height: 140px;
     }
     .cardPop figcaption {
+        margin-top: 30px;
         margin-left: 1px;
+    }
+    .cardPop figcaption h4 {
+        margin-top: -40px;
+        font-weight: bold;
+    }
+    .cardPop figcaption p {
+        margin-top: -15px;
+    }
+    .cardPop figcaption .avis {
+        margin-top: 40px;
     }
     /*Activite*/
     .Acards {
@@ -1184,5 +1203,129 @@ footer .container3 {
     .footer .container3 {
         margin-left: 35px;
         padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    main {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #logo {
+        width: 100px;
+        margin-left: 120px;
+    }
+    .topnav {
+        width: 300px;
+    }
+    .nav-list {
+        width: 300px;
+    }
+    .nav-list span {
+        width: 300px;
+    }
+    h1 {
+        font-size: 1.3em;
+        width: 290px;
+        margin-left: 10px;
+    }
+    .sous-titre {
+        margin-left: 10px;
+    }
+    .search-bar {
+        width: 300px;
+        margin-left: 3px;
+    }
+    input {
+        width: 150px;
+    }
+    a {
+        width: 300px;
+    }
+    .filtres {
+        width: 300px;
+    }
+    .filtre .item1 {
+        margin-left: 10px;
+    }
+    .filtre .item2 {
+        margin-left: 185px;
+    }
+    .filtre .item3 {
+        margin-left: 10px;
+    }
+    .filtre .item4 {
+        margin-left: 10px;
+    }
+    .info {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .Pcards h3 {
+        width: 290px;
+        margin-left: 12px;
+    }
+    .firstTitle {
+        margin-left: 10px;
+    }
+    .Hcards {
+        width: 300px;
+    }
+    .row {
+        width: 300px;
+    }
+    .cardPop {
+        margin-left: 10px;
+        width: 290px;
+    }
+    .cardPop img {
+        width: 120px;
+    }
+    .cardPop figcaption h4 {
+        margin-top: 5px;
+    }
+    .cardPop figcaption .avis {
+        margin-bottom: 20px;
+    }
+    .cardHerb {
+        width: 290px;
+        margin-left: 10px;
+    }
+    .cardHerb img {
+        width: 280px;
+    }
+    .bottom span {
+        margin-left: -20px
+    }
+    .thirdTitle {
+        margin-left: 10px;
+    }
+    #activite {
+        width: 300px;
+        margin-left: -25px;
+    }
+    .group1 {
+        width: 300px;
+    }
+    #activite2 {
+        width: 300px;
+        margin-left: -105px;
+    }
+    .group2 {
+        width: 300px;
+    }
+    .BigImg, .BigImg2,.cardActivite1, .cardActivite2, .cardActivite3, .cardActivite4 {
+        width: 290px;
+    }
+    .BigImg img, .BigImg2 img, .cardActivite1 img, .cardActivite2 img, .cardActivite3 img, .cardActivite4 img {
+        width: 290px;
+        
+    }
+    .cardActivite1, .cardActivite2 {
+        margin-left: 36px;
     }
 }
