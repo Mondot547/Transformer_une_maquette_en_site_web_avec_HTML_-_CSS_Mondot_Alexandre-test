@@ -1262,7 +1262,7 @@ footer .container3 {
         width: 375px;
     }
     .firstTitle {
-        width: 375px;
+        width: 340px;
         margin-left: 15px;
     }
     #Hebergement {
@@ -1374,12 +1374,28 @@ footer .container3 {
         margin-left: 12px;
     }
     .firstTitle {
+        width: 300px;
         margin-left: 10px;
     }
     .Hcards {
         width: 300px;
     }
+    .Hcards a {
+        width: 300px;
+    }
     .row {
+        width: 300px;
+    }
+    .bottom {
+        width: 300px;
+    }
+    .Pcards {
+        width: 320px;
+    }
+    .Pcards a {
+        width: 300px;
+    }
+    .pop {
         width: 300px;
     }
     .cardPop {
@@ -1404,6 +1420,12 @@ footer .container3 {
     }
     .bottom span {
         margin-left: -20px
+    }
+    .Acards {
+        width: 320px;
+    }
+    .Acards a {
+        width: 300px;
     }
     .thirdTitle {
         margin-left: 10px;
