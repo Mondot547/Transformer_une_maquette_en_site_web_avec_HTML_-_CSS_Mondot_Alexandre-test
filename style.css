@@ -893,21 +893,25 @@ footer .container3 {
     .nav-list span {
         width: 425px;
         display: flex;
-        justify-content: space-around;
-        border-bottom: 2px solid #f2f2f2;/*mettre en deux fois 50/50*/ /*display none sur border top*/
+        justify-content: start;/*mettre en deux fois 50/50*/ /*display none sur border top*/
         margin-top: 20px;
         margin-left: auto;
         margin-right: 10px;
         padding-bottom: 10px;
     }
-    #Act {
-        margin-right: 70px;
+    
+    #Act, #Heb {
+        border-bottom: 2px solid #f2f2f2;
+        text-align: center;
+    }
+    #Heb {
+        
     }
     #Heb:hover, #Act:hover {
         width: 425px;
         border-top: none;
         border-bottom: 2px solid #0065fc;
-        padding-bottom: 20px;
+        
         color: #0065fc;
     }
     h1 {
@@ -1206,7 +1210,104 @@ footer .container3 {
     }
 }
 @media only screen and (max-width: 375px) {
-
+    .topnav {
+        width: 375px;
+    }
+    .nav-list {
+        width: 375px;
+    }
+    .nav-list span {
+        width: 375px;
+        display: flex;
+        justify-content: space-around;
+    }
+    #trait {
+        width: 207px;
+        margin-left: 20px;
+    }
+    #Act .nav-item a{
+        width: 187px;
+        margin-right: 100px;
+    }
+    .filtres .filtre {
+        width: 375px;
+    }
+    .info {
+        width: 345px;
+        margin-left: 15px;
+    }
+    .Pcards {
+        width: 375px;
+    }
+    .Pcards a {
+        width: 375px;
+    }
+    .Pcards h3 {
+        margin-left: 15px;
+    }
+    .pop {
+        width: 375px;
+        height: 550px;
+    }
+    .cardPop {
+        margin-left: 10px;
+    }
+    .Hcards {
+        width: 375px;
+    }
+    .row {
+        width: 375px;
+    }
+    .Hcards a {
+        width: 375px;
+    }
+    .firstTitle {
+        width: 375px;
+        margin-left: 15px;
+    }
+    #Hebergement {
+        width: 375px;
+    }
+    .cardHerb {
+        margin-left: 10px;
+    }
+    .thirdTitle {
+        margin-left: 15px;
+    }
+    .Acards a {
+        width: 375px;
+    }
+    #activite {
+        width: 375px;
+    }
+    .BigImg {
+        margin-left: auto;
+    }
+    .group1{
+        width: 375px;
+        margin-left: auto;
+    }
+    #activite2 {
+        width: 375px;
+        margin-left: 0;
+    }
+    .BigImg2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .group2 {
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cardActivite3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cardActivite4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media only screen and (max-width: 320px) {
     
@@ -1223,13 +1324,13 @@ footer .container3 {
         margin-left: 120px;
     }
     .topnav {
-        width: 300px;
+        width: 320px;
     }
     .nav-list {
-        width: 300px;
+        width: 320px;
     }
     .nav-list span {
-        width: 300px;
+        width: 320px;
     }
     h1 {
         font-size: 1.3em;
