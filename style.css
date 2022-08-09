@@ -28,8 +28,8 @@
     color: black;
 }
 
-.nav-item li:hover {
-    border-top: 2px solid #0065fc;
+.nav-list a:hover {
+    border-top: 1px solid #0065fc;
     padding-top: 16px;
     color: #0065fc;
 }
@@ -489,6 +489,11 @@ footer .container3 {
     .nav-list {
         margin-left: auto;
     }
+    .nav-list a:hover {
+        border-top: 1px solid #0065fc;
+        color: #0065fc;
+        padding-top: 15px;
+    }
     .container {
         display: flex;
         flex-direction: column;
@@ -697,6 +702,11 @@ footer .container3 {
     .nav-list {
         margin-left: auto;
     }
+    .nav-list a:hover {
+        border-top: 1px solid #0065fc;
+        color: #0065fc;
+        padding-top: 15px;
+    }
     .sous-titre {
         margin-left: 10px;
     }
@@ -903,6 +913,7 @@ footer .container3 {
         padding-bottom: 16px;
         border-bottom: 2px solid #0065fc;
         color: #0065fc;
+        border-top: 0;  
     }
     h1 {
         width: 350px;
