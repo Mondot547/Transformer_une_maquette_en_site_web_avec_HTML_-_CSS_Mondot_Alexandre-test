@@ -596,7 +596,7 @@ footer .container3 {
         margin-top: -10px;
     }
     .cardPop figcaption .avis {
-        margin-top: 15px;
+        margin-top: 1px;
     }
     /*activite*/
     .thirdTitle {
@@ -838,7 +838,7 @@ footer .container3 {
     }
     .cardActivite1 img {
         width: 310px;
-        
+        object-position: 0%;
     }
     .cardActivite2 {
         width: 310px;
@@ -846,6 +846,7 @@ footer .container3 {
     }
     .cardActivite2 img {
         width: 310px;
+        object-position: 0%;
     }
     .cardActivite3 {
         width: 310px;
@@ -853,6 +854,7 @@ footer .container3 {
     }
     .cardActivite3 img {
         width: 310px;
+        object-position: 0% 10%;
     }
     .cardActivite4 {
         width: 310px;
@@ -860,6 +862,7 @@ footer .container3 {
     }
     .cardActivite4 img {
         width: 310px;
+        object-position: 0%;
     }
     /*footer*/
     .footer {
@@ -1419,12 +1422,13 @@ footer .container3 {
     }
     .Pcards a {
         width: 300px;
+        margin-left: auto;
     }
     .pop {
         width: 300px;
     }
     .cardPop {
-        margin-left: 10px;
+        margin-left: -5px;
         width: 290px;
     }
     .cardPop img {
