@@ -888,6 +888,7 @@ footer .container3 {
     }
     
     .nav-list {
+        border-bottom: 2px solid #f2f2f2;
         width: 400px;
         display: flex;
         justify-content: space-around;
@@ -898,15 +899,15 @@ footer .container3 {
     }
     
     
-    a:hover {
+    .nav-list a:hover {
+        padding-bottom: 16px;
         border-bottom: 2px solid #0065fc;
-        
         color: #0065fc;
     }
     h1 {
         width: 350px;
         margin-left: 25px;
-        margin-top: -15px;
+        margin-top: -5px;
     }
     .sous-titre {
         margin-left: 25px;
@@ -946,6 +947,7 @@ footer .container3 {
         margin-left: 20px;
         padding-left: 0px;
     }
+    
     .filtre li {
         font-size: 1em;
         font-weight: bold;
@@ -1355,7 +1357,10 @@ footer .container3 {
         width: 300px;
     }
     .filtres {
-        width: 300px;
+        width: 320px;
+    }
+    .filtres .filtre {
+        width: 320px;
     }
     .filtre .item1 {
         margin-left: 10px;
