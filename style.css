@@ -388,7 +388,7 @@ span a {
 .cardActivite3 {
     margin-top: -20px;
     width: 220px;
-    height: 155px;
+    height: 165px;
     box-shadow: 5px 5px 15px silver;
     border-radius: 1em;
 }
@@ -402,7 +402,7 @@ span a {
 }
 
 .cardActivite4 {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 220px;
     height: 155px;
     box-shadow: 5px 5px 15px silver;
@@ -1166,6 +1166,8 @@ footer .container3 {
     .BigImg img, .BigImg2 img, .cardActivite1 img, .cardActivite2 img, .cardActivite3 img, .cardActivite4 img {
         width: 347px;
         height: 120px;
+        object-fit: cover;
+        object-position: 0%;
     }
     .cardActivite1 {
         margin-left: auto;
