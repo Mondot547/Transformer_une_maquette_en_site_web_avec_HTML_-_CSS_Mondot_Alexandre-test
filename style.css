@@ -1,6 +1,7 @@
 /*entête de page*/
 
 .topnav img{
+    padding-top: 30px;
     width: 100px;
     height: 50px;
 }
@@ -8,7 +9,6 @@
 
 .nav-list {
     width: 100%;
-    padding: 16px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -30,7 +30,7 @@
 
 .nav-list a:hover {
     border-top: 1px solid #0065fc;
-    padding-top: 16px;
+    padding-top: 50px;
     color: #0065fc;
 }
 
@@ -115,7 +115,11 @@ a {
     border-radius: 40px;
     margin-right: 10px;
 }
-
+.filtre li:hover {
+    border-radius: 30px;
+    color: white;
+    background-color: #0065fc;
+}
 p i {
     border: 1px solid #f2f2f2;
     color: #0065fc;
@@ -343,6 +347,8 @@ span a {
     height: 300px;
     object-fit: cover;
     object-position: center;
+    margin-left: -40px;
+    margin-top: -20px;
 }
 
 .group1, .group2 {
@@ -354,6 +360,7 @@ span a {
 .group1 {
     width: auto;
     margin-left: 0;
+    
 }
 
 .group2 {
