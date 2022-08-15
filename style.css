@@ -637,7 +637,7 @@ footer .container3 {
     /*activite*/
     .thirdTitle {
         margin-left: 20px;
-        margin-bottom: -65px;
+        margin-bottom: -35px;
         width: 100%;
     }
     .Acards {
@@ -827,24 +827,28 @@ footer .container3 {
     .cardPop {
         margin-top: 5%;
         width: 95%;
-        height: auto;
+        height: 200px;
         margin-left: 5%;
     }
     .cardPop img {
-        width: 80px;
+        width: 35%;
+        height: 200px;
         margin-left: 0;
     }
     .cardPop figcaption {
-        margin-left: -7px;
+        margin-left: 10px;
     }
     .cardPop figcaption h4 {
-        margin-top: 10px;
+        margin-top: 2%;
+        width: 100%;
+       
     }
     .cardPop figcaption p {
-        margin-top: -15px;
+        margin-top: 1%;
+        
     }
     .cardPop figcaption .avis {
-        margin-top: -10px;
+        margin-top: 2%;
     }
     /*hebergement*/
     .Hcards {
@@ -854,12 +858,27 @@ footer .container3 {
     .cardHerb {
         margin-left: 0;
         width: 100%;
+        height: 250px;
+    }
+    .cardHerb figcaption h4 {
+        width: 350px;
+        margin-left: 2%;
+        margin-bottom: 0;
+    }
+    .cardHerb figcaption p {
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .cardHerb figcaption .avis {
+        margin-top: 2%;
+        margin-left: 1.5%;
     }
     .cardHerb img {
-        width: 96%;
+        width: 98.5%;
+        height: 150px;
     }
     .bottom {
-        margin-left: 1%;
+        margin-left: 5%;
     }
     /*activite*/
     .Acards {
@@ -940,7 +959,8 @@ footer .container3 {
     }
     /*footer*/
     .footer {
-        width: 100%;
+        width: calc(100% - 40px);
+        padding-left: 40px;
     }
     .row {
         flex-direction: column;
@@ -1453,190 +1473,9 @@ footer .container3 {
         margin-right: 0;
     }
     .footer {
-        width: 100%;
+        width: calc(100% - 40px);
     }
     .container1, .container2, .container3 {
         width: 80%;
     }
-}
-@media only screen and (max-width: 320px) {
-    
-    body {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    main {
-        width: 100%;
-    }
-    #logo {
-        width: 100px;
-        margin-left: 120px;
-    }
-    .topnav {
-        width: 100%;
-    }
-    .nav-list {
-        width: 100%;
-    }
-    
-    h1 {
-        font-size: 1.3em;
-        width: 90%;
-        margin-left: 10px;
-    }
-    .sous-titre {
-        margin-left: 10px;
-    }
-    .search-bar {
-        width: 90%;
-        margin-left: 3px;
-    }
-    input {
-        width: 150px;
-    }
-    a {
-        width: 90%;
-    }
-    .filtres {
-        width: 100%;
-    }
-    .filtres .filtre {
-        width: 90%;
-        margin-left: 5%;
-    }
-    .filtre .item1 {
-        width: 54%;
-        margin-left: 20px;
-    }
-    .filtre .item1 i {
-        margin-left: -20px;
-    }
-    .filtre .item2 {
-        margin-left: 195px;
-        width: 40%;
-    }
-    .filtre .item3 {
-        margin-left: 20px;
-        width: 50%;
-    }
-    .filtre .item3 i {
-        margin-left: -14px;
-    }
-    .filtre .item4 {
-        width: 65%;
-        margin-left: 10px;
-    }
-    .info {
-        width: 300px;
-        margin-left: 10px;
-    }
-    .Pcards h3 {
-        width: 88%;
-        margin-left: 12px;
-    }
-    
-    .firstTitle {
-        width: 300px;
-        margin-left: 10px;
-    }
-    .Hcards {
-        width: 100%;
-    }
-    .Hcards a {
-        width: 100%;
-        height: auto;
-    }
-    .bottom {
-        margin-left: 5px;
-    }
-    .row {
-        width: 300px;
-    }
-    .bottom {
-        width: 300px;
-    }
-    .Pcards {
-        width: 320px;
-    }
-    .Pcards a {
-        width: 300px;
-        margin-left: auto;
-    }
-    .pop {
-        width: 300px;
-    }
-    .cardPop {
-        margin-left: 0;
-        margin-right: 5px;
-        width: 100%;
-    }
-    .cardPop img {
-        width: 120px;
-        margin-left: 5px;
-    }
-    .cardPop figcaption h4 {
-        margin-top: 5px;
-    }
-    .cardPop figcaption .avis {
-        margin-bottom: 20px;
-    }
-    
-    .cardHerb {
-        width: 290px;
-        margin-bottom: 20px;
-        margin-left: 10px;
-    }
-    .cardHerb img {
-        width: 280px;
-    }
-    .bottom span {
-        margin-left: -5px
-    }
-    .Acards {
-        width: 320px;
-    }
-    .Acards a {
-        width: 300px;
-    }
-    .thirdTitle {
-        width: 60%;
-        margin-left: 20px;
-    }
-    #activite {
-        width: 100%;
-    }
-    .group1 {
-        width: 90%;
-        margin-right: auto;
-        margin-left: 3%;
-    }
-    #activite2 {
-        width: 100%;
-    }
-    .group2 {
-        width: 90%;
-        margin-left: 1%;
-    }
-    .cardActivite1, .cardActivite2, .cardActivite3, .cardActivite4 {
-        width: 100%;
-    }
-    .BigImg img, .BigImg2 img, .cardActivite1 img, .cardActivite2 img, .cardActivite3 img, .cardActivite4 img {
-        width: 100%;
-    }
-    .cardActivite {
-        width: 100%;
-    }
-    .BigImg {
-        width: 94%;
-        margin-left: 3%;
-    }
-    .BigImg2 {
-        width: 94%;
-        margin-left: 3%;
-    }
-    .cardActivite1, .cardActivite2 {
-        margin-left: auto;
-    }
-    
 }
